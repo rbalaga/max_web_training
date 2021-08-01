@@ -1,0 +1,23 @@
+#container {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 400px;
+    background-color: aquamarine;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+.card img {
+    width: 100%;
+}
+.card h3 {
+    font-weight: 400;
+}
+.card a {
+    text-decoration: none;
+    color: red;
+}
+.card a:hover {
+    border-bottom: 2px solid red;
+}
