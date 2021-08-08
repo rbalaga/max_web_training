@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            margin: 10px;
+        }
+        .box {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border: 1px solid black;
+        }
+        .green {
+            background-color: green;
+        }
+        .red     {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="green box" onmouseleave="handleMouseLeave(event)" onmouseover="handleMouseOver(event)">
+            green
+        </div>
+        <div class="red box" onmouseleave="handleMouseLeave(event)"  onmouseover="handleMouseOver(event)" >
+            red 
+        </div>
+    </div>
+
+    <input type="text" name="name" id="name">
+    <button onclick="func1()" ondblclick="func2()" onfocus="func3()">click me</button>
+
+    <script src="./events.js"></script>
+</body>
+</html>
