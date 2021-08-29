@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    row-gap: 10px;
+}
+fieldset {
+    display: flex;
+}
+
+.name-field {
+    height: 40px;
+    background-color: aqua;
+    padding-left: 20px;
+    font-size: 20px;
+    border: 1px dashed black;
+}
+
+.cls1 {
+    color: red;
+}
+
+/* 1000 classes */

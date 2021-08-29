@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+    <form action="../events/events.html" method="POST" class="form mx-4">
+        <label for="name">Name</label>
+        <input class="form-control" type="text" id="name" required minlength="6" name="name" placeholder="Name" />
+        
+        
+        <input class="" type="number" min="2" max="10" name="age" id="age" placeholder="Age" />
+        <input class="" type="email" name="email" placeholder="abc@email.com" />
+        
+        <fieldset>
+            <div>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">male</label>
+            </div>
+            <div>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">female</label>
+            </div>
+            <div>
+                <input type="radio" id="others" name="gender" value="others" />
+                <label for="others">Others</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <input type="checkbox" id="books" name="interests" value="books">
+                <label for="books">Books</label>
+            </div>
+            <div>
+                <input type="checkbox" id="drawing" name="interests" value="drawing">
+                <label for="drawing">Drawing</label>
+            </div>
+            <div>
+                <input type="checkbox" id="cycling" name="interests" value="cycling">
+                <label for="cycling">Cycling</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Trecking" name="interests" value="trecking">
+                <label for="Trecking">Trecking</label>
+            </div>
+        </fieldset>
+
+        <input type="date" name="date" id="date">
+        <input type="time">
+        <input type="week">
+
+        <select name="state" id="state">
+            <option value="state1">state1</option>
+            <option value="state1">state2</option>
+            <option value="state1">state3</option>
+            <option value="state1">state4</option>
+            <option value="state1">state5</option>
+        </select>
+
+        <input type="password">
+
+        <input class="btn btn-warning" type="submit" name="submit" value="Submit" />
+    </form>
+</body>
+</html>
+
+<!-- https://getbootstrap.com/docs/5.1/components/carousel/ -->
+<!-- 
+0 - 655326
+
+80 -->
+<!-- max@gmail.com
+max%40gmail.com -->
+
+
+
+<!-- http://127.0.0.1:5500   
+/register   // path parameters
+?
+name=max+smith&    // query parameters.
+age=9&
+email=max%40gmail.com&
+submit=Submit
+
+
+https://www.google.com
+/search    // path parameters
+?
+q=html& // query parameters.
+newwindow=1&
+sxsrf=AOaemvJrrcwyypsUv53OUY6ZTcLRoydslA%3A1630254380381&
+source=hp&
+ei=LLUrYeyaFNGZ4-EPnYij8Aw&
+iflsig=ALs-wAMAAAAAYSvDPLLt0WoDq5pvYstc4es4talsUHu0&oq=html&gs_lcp=Cgdnd3Mtd2l6EANQAFgAYOQHaABwAHgAgAEAiAEAkgEAmAEA&sclient=gws-wiz&ved=0ahUKEwjs4O7p0tbyAhXRzDgGHR3ECM4Q4dUDCAg&uact=5
+ -->
